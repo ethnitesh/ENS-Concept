@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
 import styles from '../styles/Home.module.css'
 import {ether, providers} from "ethers"
-import web3Modal from "web3Modal"
+import web3Modal from "web3modal"
 
 export default function Home() {
 const [walletConnected,setWalletConnected] = useState(false);
